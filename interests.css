@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	background-color: #c1f0f0;
+	font-family: Verdana;
+	color: #5c5cd6;
+	font-size: 22px;
+	justify-content: center;
+	align-content: center;
+	text-shadow: 3px 3px 5px #999999;
+}
+
+div {
+	height:500px;
+	width: 35%;
+	background-color: #ccfff5;
+	border-style: solid;
+	border-width: 3px;
+	border-color:teal;
+	border-radius: 20px;
+	box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.7);
+	position: relative;
+	margin-top: 50px;
+	align-content: center;
+	justify-content: center;
+	vertical-align: center;
+}
+
+
+

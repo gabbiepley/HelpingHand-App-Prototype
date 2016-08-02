@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+    <head>
+
+    <title>Log In & Sign Up</title>
+    <link rel="icon" href="helping_hand.png" size="16x16">
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="final_sign_in_style.css">
+        <style>
+         #grad1 {
+             height: 60%;
+             background: linear-gradient(white, #00b3b3);
+         }
+        </style>
+    </head>
+
+<body>
+     
+
+<div id="grad1">
+
+
+<!-- original action was http://login.php -->
+<form id="logIn" action="final_homepage.html" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}"> 
+
+
+     <h1>Log in</h1> 
+
+     <p> 
+          <label>Username:</label>
+          <input name="username" type="text">
+     </p>
+         <p> 
+          <label>Password:</label>
+          <input name="password" type="password"> 
+     </p>
+         <p> 
+          <input type="checkbox" name="loginkeeping" value="loginkeeping"> 
+          <label>Keep me logged in</label>
+         </p>
+     <p> 
+          <input type="submit" value="Login"> 
+     </p>
+</form>
+</div>
+
+<div id= "grad1">
+
+
+
+<form id="signUp" action="interests.html" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}"> 
+    <h1> Sign up </h1> 
+    <p> 
+         <label>First Name:</label>
+         <input name="firstnamesignup" type="text">
+    
+         <label>Last Name:</label>
+         <input name="lastnamesignup" type="text">
+    
+         <label>Username:</label>
+         <input name="usernamesignup" type="text">
+    
+         <label>Password:</label>
+         <input name="passwordsignup" type="password">
+     
+         <label>Confirm Password:</label>
+         <input name="passwordsignup_confirm" type="password">
+    </p>
+    <p>
+         <label>Email:</label>
+         <input name="emailsignup" type="email"> 
+    </p>
+    <p> 
+         <label>Date of Birth:</label>
+         <select name="month">
+         <option value="na">Month</option>
+         <option value="1">January</option>
+         <option value="2">February</option>
+         <option value="3">March</option>
+         <option value="4">April</option>
+         <option value="5">May</option>
+         <option value="6">June</option>
+         <option value="7">July</option>
+         <option value="8">August</option>
+         <option value="9">September</option> 
+         <option value="10">October</option>
+         <option value="11">November</option>
+         <option value="12">December</option>
+         </select>
+         <select name="day">
+         <option value="na">Day</option>
+         </select>
+         <select name="year">
+         <option value="na">Year</option>
+         </select>
+          
+    </p>
+    <p> 
+         <label>Gender:</label>
+         <select name="Gender">
+         <option value="male">Male</option>
+         <option value="female">Female</option>
+         </select>
+    </p>
+    <p> 
+    <input type="submit" value="Register"> 
+    </p>
+</form>
+</div>
+
+
+
+</body>
+</html>

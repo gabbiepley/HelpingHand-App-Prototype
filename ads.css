@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	text-indent: 10px;
+	background-color: #c1f0f0;
+	font-family: Verdana;
+	color: #7070db;
+	font-size: 18px;
+	display: flex;
+	text-shadow: 3px 3px 5px #999999;
+}
+
+img {
+  height: 70%;
+  width: 100%;
+  border-radius:20px;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-left: 50px;
+  margin-bottom: bottom;
+  border-style: solid;
+  border-width: 3px;
+  border-color: teal;
+  border-radius: 20px;
+
+
+}
+
+div {
+	height: 675px;
+	width: 75%;
+	background-color: #ccfff5;
+	position: relative;
+	margin-right: 50px;
+	margin-bottom: bottom;
+}
+
+
