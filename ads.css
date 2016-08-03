@@ -5,7 +5,7 @@ body{
 	font-family: Verdana;
 	color: #7070db;
 	font-size: 18px;
-	display: flex;
+	/*display: flex;*/
 	text-shadow: 3px 3px 5px #999999;
 }
 
@@ -30,8 +30,9 @@ div {
 	width: 75%;
 	background-color: #ccfff5;
 	position: relative;
-	margin-right: 50px;
-	margin-bottom: bottom;
+	/*margin-right: 50px;
+	margin-bottom: bottom;*/
+	margin: 0 auto;
 }
 
 
